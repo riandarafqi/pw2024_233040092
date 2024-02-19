@@ -1,6 +1,6 @@
 <?php
 
-$angka = 91;
+$angka = 92;
 echo "Aku adalah <b>$angka</b><br>";
 
 $angka *= 5;
