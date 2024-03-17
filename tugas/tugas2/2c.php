@@ -8,7 +8,7 @@
         .kotak {
             width: 50px;
             height: 50px;
-            background-color: darkmagenta;
+            background-color: salmon;
             border: 1px solid black;
             color: white;
             display: flex;

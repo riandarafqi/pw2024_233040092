@@ -3,42 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas 1c</title>
-    <style>
-        .kotak {
-            width: 50px;
-            height: 50px;
-            background-color: darkmagenta;
-            border: 1px solid black;
-            color: white;
-            display: flex;
-        }
-
-        .kotak h2 {
-            margin: auto;
-        }
-
-
-        .row {
-            display: flex;
-        }
-    </style>
+    <title>Document</title>
 </head>
+<style>
+    .kotak {
+        background-color: salmon;
+        width: 75px;
+        height: 75px;
+        border:2px solid black;
+        line-height: 75px;
+        text-align:center;
+    }
+    .kotak2 {
+        display:flex;
+    }
+    .kotak3 {
+        display:flex;  
+    }
+</style>
 <body>
-
-    <div class="row row-1">        
-        <div class="kotak kotak1"><h2>1</h2></div>
+    <div class="kotak">
+        <div class="kotak1">1</div>
     </div>
-    
-    <div class="row row-2">
-        <div class="kotak kotak2"><h2>2</h2></div>
-        <div class="kotak kotak2"><h2>2</h2></div><br>
+    <div class="kotak2">
+        <div class="kotak">2</div>
+        <div class="kotak">2</div>
     </div>
-
-    <div class="row row-3">
-        <div class="kotak kotak3"><h2>3</h2></div>
-        <div class="kotak kotak3"><h2>3</h2></div>
-        <div class="kotak kotak3"><h2>3</h2></div>
+    <div class="kotak3">
+        <div class="kotak">3</div>
+        <div class="kotak">3</div>
+        <div class="kotak">3</div>
     </div>
 </body>
 </html>
